@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Energy Audit</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Energy Audit</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Energy Audit --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Annual Energy Usage kWh --></label>
+        <name>Annual_Energy_Usage_kWh__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Notes --></label>
+        <name>Audit_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Annual Electric Cost --></label>
+        <name>Average_Annual_Electric_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Installation --></label>
+        <name>Type_of_Installation__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- field1 --></label>
+        <name>field1__c</name>
+    </fields>
+    <fields>
+        <label><!-- field2_email --></label>
+        <name>field2_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- field3_name --></label>
+        <name>field3_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- field4_phone --></label>
+        <name>field4_phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- field5_textarea --></label>
+        <name>field5_textarea__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

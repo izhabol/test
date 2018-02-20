@@ -45,6 +45,7 @@
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
@@ -130,7 +131,7 @@
         <fullName>Text_Field_1_Validation</fullName>
         <active>true</active>
         <description>Fails when TextField1__c = &quot;FAIL&quot;</description>
-        <errorConditionFormula>TextField1__c = &quot;TRUE&quot;</errorConditionFormula>
+        <errorConditionFormula>TextField1__c = &quot;FAIL&quot;</errorConditionFormula>
         <errorMessage>TextField1 should not be &quot;FAIL&quot;</errorMessage>
     </validationRules>
     <visibility>Public</visibility>

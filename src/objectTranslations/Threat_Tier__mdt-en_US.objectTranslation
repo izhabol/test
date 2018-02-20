@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Threat Tier</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Threat Tiers</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account TierClone1 --></label>
+        <name>Account_TierClone1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Tier --></label>
+        <name>Account_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- VacationClone1 --></label>
+        <name>VacationClone1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vacation --></label>
+        <name>Vacation__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

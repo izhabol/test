@@ -39,6 +39,10 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -65,6 +69,55 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Macaron_Flavor__c</fullName>
+        <defaultValue>CASE(MONTH(TODAY()),1, &quot;Gingerbread&quot;,2, &quot;Strawberry&quot;,4, &quot;Chocolate&quot;,7, &quot;Raspberry&quot;,11, &quot;Pumpkin&quot;,12, &quot;Mint&quot;, &quot;Vanilla&quot;)</defaultValue>
+        <externalId>false</externalId>
+        <label>Macaron Flavor</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Gingerbread</fullName>
+                    <default>false</default>
+                    <label>Gingerbread</label>
+                </value>
+                <value>
+                    <fullName>Strawberry</fullName>
+                    <default>false</default>
+                    <label>Strawberry</label>
+                </value>
+                <value>
+                    <fullName>Chocolate</fullName>
+                    <default>false</default>
+                    <label>Chocolate</label>
+                </value>
+                <value>
+                    <fullName>Raspberry</fullName>
+                    <default>false</default>
+                    <label>Raspberry</label>
+                </value>
+                <value>
+                    <fullName>Pumpkin</fullName>
+                    <default>false</default>
+                    <label>Pumpkin</label>
+                </value>
+                <value>
+                    <fullName>Mint</fullName>
+                    <default>false</default>
+                    <label>Mint</label>
+                </value>
+                <value>
+                    <fullName>Vanilla</fullName>
+                    <default>false</default>
+                    <label>Vanilla</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -76,6 +129,18 @@
         <fullName>QuantityUnitOfMeasure</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Shirt__c</fullName>
+        <externalId>false</externalId>
+        <label>Shirt</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Flavors</valueSetName>
+        </valueSet>
     </fields>
     <fields>
         <fullName>StockKeepingUnit</fullName>
@@ -103,4 +168,5 @@
         <searchResultsAdditionalFields>PRODUCT2.DESCRIPTION</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>PRODUCT2.FAMILY</searchResultsAdditionalFields>
     </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
